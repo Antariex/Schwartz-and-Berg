@@ -1,0 +1,6 @@
+{
+    "name": "PWA",
+    "short_name": "PWA",
+    "display": "standalone",
+    "theme_color": "silver"
+}
