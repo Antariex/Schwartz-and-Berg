@@ -2,5 +2,16 @@
     "name": "PWA",
     "short_name": "PWA",
     "display": "standalone",
-    "theme_color": "silver"
+    "theme_color": "silver",
+    "start_url": "/?utm_source=PWA",
+    "scope": "./",
+    "id": "/",
+    "icons": [
+        {
+            "src": "icons/favicon.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        }
+    ]
 }
