@@ -1,8 +1,8 @@
 {
     "name": "PWA",
     "short_name": "PWA",
-    "display": "standalone",
-    "theme_color": "silver",
+    "display": "minimal-ui",
+    "theme_color": "#54A4CB",
     "start_url": "/?utm_source=PWA",
     "scope": "./",
     "id": "/",
@@ -12,6 +12,13 @@
             "type": "image/png",
             "sizes": "512x512",
             "purpose": "any"
+        },
+
+        {
+            "src": "icons/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
         }
     ]
 }
