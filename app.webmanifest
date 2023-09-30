@@ -1,21 +1,22 @@
 {
-    "name": "PWA",
-    "short_name": "PWA",
+    "name": "Schwartz and Berg",
+    "short_name": "S&B",
     "display": "minimal-ui",
-    "theme_color": "#54A4CB",
+    "theme_color": "#9D1114",
+    "background_color": "antiquewhite",
     "start_url": "/?utm_source=PWA",
     "scope": "./",
     "id": "/",
     "icons": [
         {
-            "src": "icons/favicon.png",
+            "src": "icons/android-chrome-512x512.png",
             "type": "image/png",
             "sizes": "512x512",
             "purpose": "any"
         },
 
         {
-            "src": "icons/maskable_icon.png",
+            "src": "icons/android-chrome-192x192.png",
             "type": "image/png",
             "sizes": "512x512",
             "purpose": "maskable"
