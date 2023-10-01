@@ -1,9 +1,24 @@
 {
-    "name": "Schwartz and Berg",
+    "name": "Schwartz & Berg",
     "short_name": "S&B",
     "display": "minimal-ui",
     "theme_color": "#9D1114",
     "background_color": "antiquewhite",
+    "description": "Todo el sabor de Schwartz & Berg ahora más cerca tuyo",
+    "screenshots": [
+        {
+            "src": "images/pastrami1.jpg",
+            "type": "image/jpg",
+            "sizes": "320x320",
+            "purpose": "any"
+        },
+        {
+            "src": "images/pastrami2.jpg",
+            "type": "image/jpg",
+            "sizes": "798x448",
+            "purpose": "maskable"
+        }
+    ],
     "start_url": "/?utm_source=PWA",
     "scope": "./",
     "id": "/",
@@ -17,7 +32,7 @@
         {
             "src": "icons/android-chrome-192x192.png",
             "type": "image/png",
-            "sizes": "512x512",
+            "sizes": "192x192",
             "purpose": "maskable"
         }
     ]

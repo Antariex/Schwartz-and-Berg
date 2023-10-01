@@ -24,10 +24,14 @@ async function handleRequest(request) {
   const cache = await caches.open("recursos");
 
   const cachedResponse = await cache.match(request);
-  if (cachedResponse) return cachedResponse;
+  if (cachedResponse) {
+    const networkResponse = await fetch(request);
+    cache.put(request, networkResponse.clone());
+
+    return cachedResponse;
+  }
 
   const networkResponse = await fetch(request);
   //cache.put(request, networkResponse.clone());
-
   return networkResponse; // Change this line from 'fetch(response)' to 'fetch(event.request)'
 }

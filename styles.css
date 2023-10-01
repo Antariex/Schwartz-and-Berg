@@ -5,9 +5,21 @@ body {
     background-color: antiquewhite;
     padding: 30px;
     font-family: 'Roboto', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 img {
     width: 150px;
     height: auto;
+}
+
+@media (display-mode: minimal-ui) {
+    #instalation {
+        display: none;
+    }
+}
+
+@media (display-mode: browser) {
+    
 }
