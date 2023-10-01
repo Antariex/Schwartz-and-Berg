@@ -1,3 +1,5 @@
+importScripts("sw-helper.js");
+
 self.addEventListener("install", async (event) => {
   // Precache
   const cache = await caches.open("recursos");
