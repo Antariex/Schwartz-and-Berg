@@ -19,7 +19,7 @@
             "purpose": "any"
         }
     ],
-    "start_url": "/?utm_source=PWA",
+    "start_url": "/",
     "scope": "./",
     "id": "/",
     "icons": [
