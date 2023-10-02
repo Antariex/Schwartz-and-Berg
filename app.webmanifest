@@ -13,8 +13,8 @@
             "purpose": "any"
         }
     ],
-    "start_url": "/?utm_source=PWA",
-    "scope": "/",
+    "start_url": "/pwa",
+    "scope": "./",
     "id": "/",
     "icons": [
         {
