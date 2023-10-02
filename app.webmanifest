@@ -20,7 +20,7 @@
         }
     ],
     "start_url": "/",
-    "scope": "./",
+    "scope": "/",
     "id": "/",
     "icons": [
         {
