@@ -93,6 +93,14 @@
     cursor: pointer;
 }
 
+ .hero {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+  
 
 /*ESTILOS DEL BODY*/
 body {
@@ -101,7 +109,7 @@ body {
 
 .moto {
     font-weight: bolder;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     line-height: 1.385;
     text-align: center;
     padding: 4px;
@@ -165,7 +173,7 @@ body {
 }
 
 .nombre {
-    font-weight: bold;
+    font-weight: 500;
     font-size: 1.3rem;
     line-height: 1.385;
     text-align: left;
