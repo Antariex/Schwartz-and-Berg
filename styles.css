@@ -203,7 +203,7 @@ body {
     margin: 0;
 }
 
-@media (display-mode: minimal-ui) {
+@media (display-mode: standalone) {
     #instalation {
         display: none;
     }

@@ -1,7 +1,7 @@
 {
     "name": "Schwartz & Berg",
     "short_name": "S&B",
-    "display": "minimal-ui",
+    "display": "standalone",
     "theme_color": "#9D1114",
     "background_color": "antiquewhite",
     "description": "Todo el sabor de Schwartz & Berg, y el MEJOR hot pastrami ahora en tu celular. Revisá nuesto menú, hacé tus pedidos o reservá tu lugar al instante.",
