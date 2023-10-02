@@ -11,16 +11,10 @@
             "type": "image/jpg",
             "sizes": "320x320",
             "purpose": "any"
-        },
-        {
-            "src": "images/reuben.jpg",
-            "type": "image/jpg",
-            "sizes": "550x371",
-            "purpose": "any"
         }
     ],
-    "start_url": "/",
-    "scope": "/",
+    "start_url": "/?utm_source=PWA",
+    "scope": "./",
     "id": "/",
     "icons": [
         {
