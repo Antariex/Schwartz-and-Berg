@@ -4,7 +4,7 @@
     "display": "minimal-ui",
     "theme_color": "#9D1114",
     "background_color": "antiquewhite",
-    "description": "Todo el sabor de Schwartz & Berg ahora más cerca tuyo",
+    "description": "Todo el sabor de Schwartz & Berg, y el MEJOR hot pastrami ahora en tu celular. Revisá nuesto menú, hacé tus pedidos o reservá tu lugar al instante.",
     "screenshots": [
         {
             "src": "images/pastrami1.jpg",
@@ -16,7 +16,7 @@
             "src": "images/pastrami2.jpg",
             "type": "image/jpg",
             "sizes": "798x448",
-            "purpose": "maskable"
+            "purpose": "any"
         }
     ],
     "start_url": "/?utm_source=PWA",
