@@ -13,9 +13,9 @@
             "purpose": "any"
         },
         {
-            "src": "images/pastrami2.jpg",
+            "src": "images/reuben.jpg",
             "type": "image/jpg",
-            "sizes": "798x448",
+            "sizes": "550x371",
             "purpose": "any"
         }
     ],
