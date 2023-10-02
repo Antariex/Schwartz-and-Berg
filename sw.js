@@ -35,3 +35,8 @@ async function handleRequest(request) {
   //cache.put(request, networkResponse.clone());
   return networkResponse; // Change this line from 'fetch(response)' to 'fetch(event.request)'
 }
+
+// const registration = await navigator.serviceWorker.ready;
+// if ("update" in registration) {
+//   registration.update();
+// }
