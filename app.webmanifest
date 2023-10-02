@@ -14,7 +14,7 @@
         }
     ],
     "start_url": "/?utm_source=PWA",
-    "scope": "./",
+    "scope": "/",
     "id": "/",
     "icons": [
         {
