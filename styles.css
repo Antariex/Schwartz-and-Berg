@@ -78,7 +78,7 @@
 
 #mobile-menu a {
     text-decoration: none;
-    color:#333333;
+    color: #333333;
     font-weight: bold;
     font-size: 1.9rem;
 }
@@ -166,7 +166,7 @@
 .platos img {
     width: 100vw;
 }
-  
+
 /*ESTILOS DEL BODY*/
 body {
     background-color: antiquewhite;
