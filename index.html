@@ -31,30 +31,53 @@
     <title>Schwartz & Berg</title>
 </head>
 
-<header>
-
-    <nav class="navbar">
-        <img src="./images/S&B.jpg" style="width: 70px" alt="S&B logo">
-        <span class="material-symbols-outlined menu">
-            menu
-        </span>
-    </nav>
-
-    <div>
-        <img class="hero" src="./images/hotpastrami.jpg" alt="Nuestro Hot Pastrami">
-    </div>
-
-    <nav class="uppermenu">
-        <a class="pedido" href="#">Realizar pedido</a>
-        <section id="instalation">
-            <button> <img src="./images/movil.png" alt="" style="width: 28px;"> Descargar app</button>
-        </section>
-    </nav>
-</header>
-
-
 <body>
-    <br>
+    <header>
+        <nav class="navbar">
+            <img src="./images/S&B.jpg" style="width: 70px" alt="S&B logo">
+            <span class="material-symbols-outlined menu" id="menu-icon">
+                menu
+            </span>
+            <div id="mobile-menu">
+                
+                <ul class="menu-list">
+                    <li>
+                        <a href="#">Pedidos</a>
+                    </li>
+                    <li>
+                        <a href="#">Gift cards</a>
+                    </li>
+                    <li>
+                        <a href="#">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                    <hr>
+                    <br>
+                    <li>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                location_on
+                            </span>Sucursales
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <section class="platos">
+            <img id="imagenReemplazar" src="./images/vareniques.jpg" alt="vareniques">
+        </section>
+
+        <nav class="uppermenu">
+            <a class="pedido" href="#">Realizar pedido</a>
+            <section id="instalation">
+                <button> <img src="./images/movil.png" alt="" style="width: 28px;"> Descargar app</button>
+            </section>
+        </nav>
+    </header>
+
     <div>
         <p class="moto">El Mejor HOT Pastrami 🔥💯</p>
     </div>
@@ -66,23 +89,10 @@
             tomar hasta 30 días completos para curarse. Nuestra elección siempre es la calidad."</p>
     </div>
 
-    <section class="platos">
-        <h3>Nuestros recomendados</h3>
-        <img src="./images/vareniques.jpg" alt="vareniques">
-
-        <img src="./images/ribs.jpg" alt="ribs">
-
-        <img src="./images/burguer.jpg" alt="burguer">
-
-        <img src="./images/goulash.jpg" alt="goulash">
-
-        <img src="./images/chessecake.jpg" alt="chessecake">
-    </section>
-
     <br>
 
     <div class="ordenar">
-        <h1 class="nombre">S&B Delicatessen</h1>
+        <h1 class="nombre">Swartz & Berg</h1>
         <section class="pedidonuevo">
             <button> Realizar pedido</button>
         </section>
@@ -98,6 +108,8 @@
             <p>© 2023 Swartz and Berg Delicatessen.</p>
         </div>
     </footer>
+
+    <script src="content.js"></script>
 </body>
 
 </html>
