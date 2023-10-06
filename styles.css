@@ -154,7 +154,7 @@ body {
     opacity: 1;
 }
 
-#install-button {
+#install-button button {
     display: flex;
     align-items: center;
     border: solid 1px #9D1114;
