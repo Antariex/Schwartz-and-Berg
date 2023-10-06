@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', event => {
 });
 
 let registrationSW;
-        navigator.serviceWorker.register('/sw.js').then(registration => {
+        navigator.serviceWorker.register('./sw.js').then(registration => {
             registrationSW = registration;
         });
 
