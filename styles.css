@@ -92,8 +92,8 @@ body {
     align-items: center;
     border: solid 1px #9D1114;
     border-radius: 6px;
-    background-color: transparent;
-    color: #9D1114;
+    background-color: #333333;
+    color: #fff;
     padding: 6px 12px;
     margin-left: 6px;
     text-transform: uppercase;
@@ -143,7 +143,7 @@ body {
 .pedido {
     display: flex;
     font-weight: bolder !important;
-    font-size: 14px !important;
+    font-size: 16px !important;
     line-height: 1.5;
     text-align: left;
     margin-right: 8px;
