@@ -90,15 +90,17 @@ body {
 /*ESTILOS DEL BODY*/
 .platos {
     display: flex;
-    flex: nowrap;
+    flex: wrap;
     justify-content: center;
     align-items: center;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .platos img {
     width: 100vw;
+    overflow: hidden;
 }
 
 .uppermenu {
