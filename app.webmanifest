@@ -14,7 +14,7 @@
         }
     ],
     "start_url": "/pwa",
-    "scope": "./",
+    "scope": "/",
     "id": "/",
     "icons": [
         {
