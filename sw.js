@@ -13,7 +13,17 @@ self.addEventListener("install", async (event) => {
 });
 
 self.addEventListener("activate", (event) => {
-  // Se activó el SW para la PWA de este scope
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          if (cacheName !== "recursos") {
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
 });
 
 self.addEventListener("fetch", (event) => {
@@ -25,18 +35,17 @@ async function handleRequest(request) {
 
   const cachedResponse = await cache.match(request);
   if (cachedResponse) {
-    const networkResponse = await fetch(request);
-    cache.put(request, networkResponse.clone());
-
     return cachedResponse;
   }
 
   const networkResponse = await fetch(request);
-  //cache.put(request, networkResponse.clone());
-  return networkResponse; // Change this line from 'fetch(response)' to 'fetch(event.request)'
+  cache.put(request, networkResponse.clone());
+
+  return networkResponse;
 }
 
-// const registration = await navigator.serviceWorker.ready;
-// if ("update" in registration) {
-//   registration.update();
-// }
+// Verificar si hay una actualización disponible y actualizar el Service Worker
+const registration = await navigator.serviceWorker.ready;
+if ("update" in registration) {
+  registration.update();
+}
