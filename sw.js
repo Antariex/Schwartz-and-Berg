@@ -4,7 +4,7 @@ self.addEventListener("install", async (event) => {
   // Precache
   const cache = await caches.open("recursos");
   await cache.addAll([
-    "/",
+    "/pwa",
     "styles.css",
     "/images/logo.jpg",
     "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap",
