@@ -87,6 +87,22 @@ body {
     margin: 0;
 }
 
+#install-button button {
+    display: flex;
+    align-items: center;
+    border: solid 1px #9D1114;
+    border-radius: 6px;
+    background-color: antiquewhite;
+    color: #9D1114;
+    padding: 6px 12px;
+    margin-left: 6px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+
 /*ESTILOS DEL BODY*/
 .platos {
     display: flex;
@@ -124,19 +140,16 @@ body {
     color: #9D1114 !important;
 }
 
-#install-button button {
+.pedido {
     display: flex;
-    align-items: center;
-    border: solid 1px #9D1114;
-    border-radius: 6px;
-    background-color: antiquewhite;
-    color: #9D1114;
-    padding: 6px 12px;
-    margin-left: 6px;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    margin-right: 8px;
     text-transform: uppercase;
-    cursor: pointer;
-    font-size: 0.9rem;
-    text-align: center;
+    color: #9D1114;
+    text-decoration: none;
 }
 
 .moto {
