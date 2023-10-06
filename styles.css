@@ -67,7 +67,8 @@ body {
     margin-top: 10px;
 }
 
-.menu-list a, .menu-list a:hover{
+.menu-list a,
+.menu-list a:hover {
     text-decoration: none;
     color: #333333;
     font-weight: bold;
@@ -218,7 +219,8 @@ h2 {
 
 .info {
     display: flex;
-    flex-direction: column; /* Alinea verticalmente los info-items */
+    flex-direction: column;
+    /* Alinea verticalmente los info-items */
 }
 
 .info-item {
