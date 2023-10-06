@@ -124,36 +124,6 @@ body {
     color: #9D1114 !important;
 }
 
-.pedido {
-    display: flex;
-    font-weight: bolder;
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: left;
-    margin-right: 8px;
-    text-transform: uppercase;
-    color: #9D1114;
-    text-decoration: none;
-}
-
-.pedido::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background-color: #9D1114;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: width 0.3s ease-in-out;
-    opacity: 0;
-}
-
-.pedido:hover::before {
-    width: 100%;
-    opacity: 1;
-}
-
 #install-button button {
     display: flex;
     align-items: center;
