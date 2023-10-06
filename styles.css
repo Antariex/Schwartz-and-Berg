@@ -220,7 +220,6 @@ h2 {
 .info {
     display: flex;
     flex-direction: column;
-    /* Alinea verticalmente los info-items */
 }
 
 .info-item {
