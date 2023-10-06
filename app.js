@@ -6,7 +6,7 @@ bip = event;
 });
 
 document.addEventListener('DOMContentLoaded', event => {
-    document.querySelector("#instalation button").addEventListener('click', event => {
+    document.querySelector("#install-button").addEventListener('click', event => {
         if (bip) {
             bip.prompt();
         };
