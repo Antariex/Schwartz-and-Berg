@@ -4,7 +4,7 @@
     "display": "standalone",
     "theme_color": "#9D1114",
     "background_color": "antiquewhite",
-    "description": "Todo el sabor de Schwartz & Berg, y el MEJOR hot pastrami ahora en tu celular. Revisá nuestro menú, hacé tus pedidos o reservá tu lugar al instante.",
+    "description": "Todo el sabor de Schwartz & Berg, y el MEJOR hot pastrami ahora en tu celular. Revisá nuesto menú, hacé tus pedidos o reservá tu lugar al instante.",
     "screenshots": [
         {
             "src": "images/pastrami1.jpg",
@@ -15,7 +15,7 @@
     ],
     "start_url": "/pwa",
     "scope": "./",
-    "lang": "es",
+    "id": "/",
     "icons": [
         {
             "src": "icons/android-chrome-512x512.png",
@@ -29,6 +29,5 @@
             "sizes": "192x192",
             "purpose": "maskable"
         }
-    ],
-    "email": "arielantequiera@gmail.com"
+    ]
 }

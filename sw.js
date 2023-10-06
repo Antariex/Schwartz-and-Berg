@@ -1,4 +1,4 @@
-importScripts("sw-helper.js");
+importScripts("content.js");
 
 self.addEventListener("install", async (event) => {
   // Precache
