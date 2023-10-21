@@ -193,6 +193,12 @@ h2 {
     margin: 0;
 }
 
+
+.card a {
+    text-decoration: none !important;
+    color: #000;
+}
+
 .info {
     display: flex;
     flex-direction: column;
@@ -251,7 +257,6 @@ footer {
     color: #9D1114;
     margin: 0;
     padding: 8px;
-    border-top-left-radius: 16px;
 }
 
 .pedidonuevo button {
