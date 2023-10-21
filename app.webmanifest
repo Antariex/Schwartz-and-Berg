@@ -1,40 +1,39 @@
 {
     "name": "Schwartz & Berg",
     "short_name": "S&B",
-    "display": "standalone",
-    "theme_color": "#9D1114",
-    "background_color": "antiquewhite",
-    "description": "Todo el sabor de Schwartz & Berg ahora desde tu celular. Revisá el menú, pedí delivery o reservá en nuestro salón al instante.",
-    "screenshots": [
-        {
-            "src": "images/pastrami1.jpg",
-            "type": "image/jpg",
-            "sizes": "320x320",
-            "purpose": "any"
-        },
-
-        {
-            "src": "images/reuben.jpg",
-            "type": "image/jpg",
-            "sizes": "320x320",
-            "purpose": "any"
-        }
-    ],
     "start_url": "/pwa",
-    "scope": "./",
-    "id": "/",
+    "display": "standalone",
+    "background_color": "#9D1114",
+    "theme_color": "#9D1114",
+    "description": "Todo el sabor de Schwartz & Berg ahora desde tu celular. Revisá el menú, pedí delivery o reservá en nuestro salón al instante.",
+    "scope": "/",
+    "orientation": "portrait",
+    "lang": "es",
     "icons": [
         {
             "src": "icons/android-chrome-512x512.png",
-            "type": "image/png",
             "sizes": "512x512",
-            "purpose": "any"
+            "type": "image/png"
         },
         {
             "src": "icons/android-chrome-192x192.png",
-            "type": "image/png",
             "sizes": "192x192",
+            "type": "image/png",
             "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "images/pastrami1.jpg",
+            "sizes": "320x320",
+            "type": "image/jpg",
+            "purpose": "any"
+        },
+        {
+            "src": "images/reuben.jpg",
+            "sizes": "320x320",
+            "type": "image/jpg",
+            "purpose": "any"
         }
     ]
 }
