@@ -105,7 +105,8 @@ body {
     background-color: #fff;
     color: #9D1114;
     padding: 6px 12px;
-    margin-left: 6px;
+    margin-top: 16px;
+    margin-left: 16px;
     text-transform: uppercase;
     cursor: pointer;
     font-size: 0.9rem;
