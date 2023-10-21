@@ -179,7 +179,7 @@ body {
     justify-content: center !important;
     align-items: center;
     flex-wrap: nowrap;
-    width: 90%;
+    width: 96%;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 24px;
@@ -196,7 +196,7 @@ h2 {
 .info {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 92%;
 }
 
 .info-item {
