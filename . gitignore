@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+
+# Dependencias generadas por npm
+package-lock.json
+
+# Archivos de log
+logs/
+*.log
+
+# Entorno
+.env
+
+# Cualquier archivo compilado o generado
+dist/
+build/
+*.min.js
+
+# Cualquier archivo de respaldo creado por su editor
+*.bak
+
+# Cualquier archivo .env que contenga secretos o información sensible
+
+.env
