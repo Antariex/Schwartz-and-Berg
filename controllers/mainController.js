@@ -17,6 +17,10 @@ const mainController = {
 
     nosotros: (req, res) => {
         res.render('nosotros'); 
+    },
+
+    sucursales: (req, res) => {
+        res.render('sucursales'); 
     }
 };
 

@@ -3,8 +3,8 @@
 
 <head>
     <!-- Metadatos: idiomas, adaptabilidad, estilos, tipografías, iconos y título -->
-        <!-- Aquí comienza el header: logo, navbars y campo de búsqueda -->
-        <%- include('../views/partials/header.ejs') %>
+    <!-- Aquí comienza el header: logo, navbars y campo de búsqueda -->
+    <%- include('../views/partials/header.ejs') %>
 </head>
 
 <body>
@@ -15,29 +15,69 @@
 
 
         <section>
-                <p class="titulo2">Disfrutá lo mejor de Schwartz & Berg</p>
-                <div class="fila-productos">
-                    <% productos.forEach(product => { %>
-                        <article class="producto">
-                            <br>
-                            <br>
-            
-                            <div class="menuProductos">
-                                    <a href="#">
-                                        <img src="<%=product.image%>" title="<%=product.name%>"></a>
-                                <div>
-                                    <a href="#">
-                                        <p class="nombreProducto"><%=product.name%></p>
-                                    </a>
-                                    <p class="descripcionProducto"><%=product.description%></p>
-                                    <p class="precios">$<%=product.price%></p>
-                                    <button>Agregar</button>
-                                </div>
-                            </div>
-                        </article>
-                        <% }) %>
-                </div>
-             
+            <p class="titulo2 tituloSeccion">Schwartz & Berg, pionero de la comida judía en la Argentina</p>
+
+            <div class="historia">
+                <img src="/images/hotpastrami3.jpg" alt="Hot Pastrami">
+                <br>
+                <p>
+                    Varenikes, knishes de papa, pastrón y latkes. Hoy en día, la cocina judía dejó de ser solo para una
+                    porción religiosa del mundo, para extenderse a lo largo y ancho de sus fronteras. Tan es así que
+                    estos exquisitos platos elaborados de manera artesanal, se pueden encontrar en ciudades como Nueva
+                    York, Londres y por supuesto, Buenos Aires.
+                </p>
+                <br>
+                <p>
+                    En el caso de Buenos Aires, generar en la gente un conocimiento sobre esta comida, además de
+                    convencerlos de integrar estos platos dentro de su menú a la hora de salir a comer afuera, solo
+                    podía ser un trabajo de un visionario.
+                </p>
+                <br>
+                <p>
+                    Este es el caso de Jorge Szwarcberg, un hombre de unos 79 años que previo a introducirse en el rubro
+                    gastronómico, se dedicaba al rubro textil. Él afirma tener un alma inquieta y no poder estar sin
+                    trabajar o al menos, tener la mente ocupada. Con ese espíritu nació Schwartz & Berg en el año 2015.
+                </p>
+                <br>
+                <p>
+                    Este restaurante moderno y acogedor se encuentra en el corazón de Palermo Hollywood -Fitz Roy
+                    1617-, y tiene la particularidad y el romanticismo de que antes era una casa chorizo donde él había
+                    vivido gran parte de su vida.
+                </p>
+                <br>
+                <p>
+                    Sus platos deleitan a cualquiera y llaman la atención por su tamaño y abundancia, que no solo se
+                    pueden ver en la carta online sino que sorprende que sean exactamente iguales cuando se sirven en la
+                    mesa. Quizás por esta razón, solo en el mes de abril, rompieron el récord de visitas: un total de
+                    3000, lo que da 100 clientes por día.
+                </p>
+                <br>
+                <p class="cita">
+                    "Mi familia es judía. Mi mamá era rusa y mi papá polaco. Yo tuve la oportunidad de vivir es Estados
+                    Unidos, mis abuelos vivieron en Brooklyn y siempre veía a mi mamá cocinar. Todo lo que se puede ver
+                    hoy en la carta es una fusión de las comidas centroeuropeas, que tiene características adaptadas al
+                    mercado americano, junto con mis costumbres y las cosas que aprendí de mi familia", aseguró Jorge
+                </p>
+                <br>
+                <p>
+                    Pero el lugar no solo tiene el diferencial que es uno de los sitios más destacados de comida judía
+                    de Buenos Aires, sino que además todo está hecho de manera casera y artesanal. Desde el pastrón, que
+                    se cocina por 17 horas al vacío; pasando por la mayonesa, la mostaza y hasta el pan casero. Una gran
+                    salida para aquellos que desean probar comida de calidad y hecha a mano como si fuera de una abuela.
+                </p>
+                <br>
+                <img src="/images/horno.jpg" alt="Horno de leña">
+                <br>
+                <p class="cita">
+                    "En su momento, Argentina era la segunda comunidad judía en el mundo. Hoy estamos contentos y
+                    satisfechos con los resultados del lugar porque al principio nos costó que entiendan lo que hacemos.
+                    Tenemos el diferencial de que hacemos el pan, los 'pickles' -pepinos-, el salmón, la levadura que
+                    hacemos es belga, todo de manera casera. La gente entra y se va contenta, y eso es lo que nos
+                    importa".
+                </p>
+                <br>
+            </div>
+
 
         </section>
 

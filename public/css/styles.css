@@ -152,6 +152,7 @@ body {
 .local img {
     width: 200px !important;
     border-radius: 26px;
+    border: 1px solid #333333;
 }
 
 .dedicacion {
@@ -259,23 +260,23 @@ footer {
     padding: 8px;
 }
 
-    .pedidonuevo button {
-        position: fixed;
-        bottom: 10px;
-        right: 10px;
-        border-radius: 24px;
-        padding: 18px 24px;
-        font-weight: bold;
-        border: 0;
-        text-transform: none;
-        line-height: 16px;
-        cursor: pointer;
-        font-size: 1.1rem;
-        background-color: #9D1114;
-        color: #fff;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: box-shadow 0.3s;
-    }
+.pedidonuevo button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 24px;
+    padding: 18px 24px;
+    font-weight: bold;
+    border: 0;
+    text-transform: none;
+    line-height: 16px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    background-color: #9D1114;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
 
 .nombre {
     font-weight: 450;
@@ -300,7 +301,7 @@ iconify-icon:hover {
 }
 
 
-/*Products view styles*/
+/*Estilos de vista: Menú*/
 .fila-productos {
     display: flex;
     flex-wrap: wrap;
@@ -386,6 +387,47 @@ iconify-icon:hover {
 }
 
 
+/*Estilos de vista: Nosotros*/
+.tituloSeccion {
+    text-align: center !important;
+}
+
+.historia {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    width: 75%;
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    padding: 16px;
+    font-weight: 300;
+    color: #1f1f1f;
+}
+
+.cita {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.historia img {
+    max-width: 450px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 24px;
+    border: 1px solid #1f1f1f;
+}
+
+/*Estilos de vista: Sucursales*/
+.center-iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
 
 /* Media Queries */
 @media (display-mode: standalone) {
@@ -405,12 +447,13 @@ iconify-icon:hover {
         color: #fff;
         padding: 0;
         margin: 0;
-        position:fixed;
+        position: fixed;
         z-index: 1;
         overflow: hidden;
     }
-    
-    .platos, .menu {
+
+    .platos,
+    .menu {
         display: none !important;
     }
 
@@ -426,7 +469,7 @@ iconify-icon:hover {
         justify-content: flex-start;
         margin-left: 2rem;
     }
-    
+
     .desktop-menu a,
     .desktop-menu a:hover {
         text-decoration: none;
@@ -436,16 +479,16 @@ iconify-icon:hover {
         padding: 4px;
         margin: 4px;
     }
-    
+
     .desktop-menu a:hover {
         color: gold;
     }
-    
+
     .desktop-menu li {
         padding: 8px;
         margin: 0;
     }
-    
+
     #install-button button {
         position: absolute;
         top: 0;
@@ -487,7 +530,7 @@ iconify-icon:hover {
         align-items: center;
         justify-content: center;
     }
-    
+
     .image-container img {
         border-radius: 24px;
         margin: 10px;
@@ -523,30 +566,34 @@ iconify-icon:hover {
         cursor: pointer;
         font-size: 1.1rem;
         background-color: #9D1114;
-        color: #fff; 
+        color: #fff;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: box-shadow 0.3s;
     }
 
-     .titulo2 {
-    font-weight: 800 !important;
-    font-size: 1.5rem;
-    letter-spacing: 0.1em;
-    padding: 16px;
-    text-align: left;
-    padding-top: 80px; 
-}
+    footer {
+        padding-bottom: 60px;
+    }
 
-.producto {
-width: calc(31% - 10px);
-} 
+    .titulo2 {
+        font-weight: 800 !important;
+        font-size: 1.5rem;
+        letter-spacing: 0.1em;
+        padding: 16px;
+        text-align: left;
+        padding-top: 80px;
+    }
 
-.fila-productos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+    .producto {
+        width: calc(31% - 10px);
+    }
+
+    .fila-productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
 }
