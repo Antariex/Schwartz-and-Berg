@@ -318,7 +318,7 @@ iconify-icon:hover {
 
 .menuProductos img {
     border-radius: 50%;
-    width: 200px;
+    max-width: 200px;
     height: 200px;
     border: 1px solid #ccc;
 }
@@ -373,7 +373,6 @@ iconify-icon:hover {
     font-weight: 700;
     font-size: 0.9rem;
     transition: background-color 0.3s;
-
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
