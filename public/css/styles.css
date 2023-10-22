@@ -260,7 +260,7 @@ footer {
 }
 
 .pedidonuevo button {
-    display: block;
+    display: none;
     border: solid 1px #fff;
     border-radius: 6px;
     background-color: #9D1114;
