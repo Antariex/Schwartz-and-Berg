@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Hot Pastrami",
+        "price": 5600,
+        "image": "/images/hotpastrami2.jpg",
+        "category": "sandwiches",
+        "description": "200grs de pastrami caliente en rico pan casero con pepino agridulce, cabolla caramelizada y un toque de Dijón"
+    },
+    {
+        "id": 2,
+        "name": "Reuben New York",
+        "price": 5600,
+        "image": "/images/reuben.jpg",
+        "category": "sandwiches",
+        "description": "Pastrami, en pan blanco, con queso derretido, repollo fermentado  y nuestra salsa especial. Viene con papines horneados."
+    },
+    {
+        "id": 3,
+        "name": "Varsovia",
+        "price": 5600,
+        "image": "/images/varsovia.jpg",
+        "category": "sandwiches",
+        "description": "De hot pastrami, huevo de gallina ponedora roja, queso dambo derretido, mostaza ancient, con pan de molde casero y acompañado de papas fritas."
+    },
+    {
+        "id": 4,
+        "name": "Compadre Burguer",
+        "price": 5000,
+        "image": "/images/burguer.jpg",
+        "category": "sandwiches",
+        "description": "Carme molida de novillo a la parrilla. Con queso cheddar, pepinillos, cebollas caramelizadas y jalapeño spice frito, con papas fritas especiadas."
+    },
+    {
+        "id": 5,
+        "name": "Goulash",
+        "price": 4500,
+        "image": "/images/goulash.jpg",
+        "category": "gourmet",
+        "description": "Un plato tradicional que combina carne estofada con especias y verduras. Con una guarnición de spätzle para absorber la deliciosa salsa."
+    },
+    {
+        "id": 6,
+        "name": "Ribs BBQ ahumadas",
+        "price": 6500,
+        "image": "/images/ribs.jpg",
+        "category": "gourmet",
+        "description": "Jugosas costillas de cerdo, ahumadas y bañadas en salsa barbacoa, con un toque de hierbas frescas y limón. Acompañadas con papas fritas y cerveza roja."
+    },
+    {
+        "id": 7,
+        "name": "Varenikes",
+        "price": 4500,
+        "image": "/images/vareniques.jpg",
+        "category": "gourmet",
+        "description": "Tradicionales. De papa, con cebolla caramelizada y crema agria. Bañados en manteca derretida que realza su textura suave y cremosa."
+    },
+    {
+        "id": 8,
+        "name": "New York Chesse Cake",
+        "price": 3000,
+        "image": "/images/chessecake.jpg",
+        "category": "postres",
+        "description": "Una obra maestra de la repostería que combina la suavidad y la cremosidad del cheesecake con la intensidad y el sabor tropical de la maracuyá."
+    },
+    {
+        "id": 9,
+        "name": "Tiramisu",
+        "price": 3000,
+        "image": "/images/tiramisu.jpg",
+        "category": "postres",
+        "description": "Italia a bocados. Bizcochos savoiardi empapados en café con crema de mascarpone suave y ligeramente dulce. Una textura delicada y un sabor equilibrado."
+    }
+]

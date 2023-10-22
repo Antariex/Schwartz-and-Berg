@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos: idiomas, adaptabilidad, estilos, tipografías, iconos y título -->
+        <!-- Aquí comienza el header: logo, navbars y campo de búsqueda -->
+        <%- include('../views/partials/header.ejs') %>
+</head>
+
+<body>
+
+
+    <!-- Aquí comienza el main -->
+    <main>
+
+
+        <section>
+            <br>
+            <br>
+            <br>
+            <br>
+                <p class="titulo2">Disfrutá lo mejor de Schwartz & Berg</p>
+                <div class="fila-productos">
+                    <% productos.forEach(product => { %>
+                        <article class="producto">
+                            <br>
+                            <br>
+            
+                            <div class="menuProductos">
+                                    <a href="#">
+                                        <img src="<%=product.image%>" title="<%=product.name%>"></a>
+                                <div>
+                                    <a href="#">
+                                        <p class="nombreProducto"><%=product.name%></p>
+                                    </a>
+                                    <p class="descripcionProducto"><%=product.description%></p>
+                                    <p class="precios">$<%=product.price%></p>
+                                    <button>Agregar</button>
+                                </div>
+                            </div>
+                        </article>
+                        <% }) %>
+                </div>
+             
+
+        </section>
+
+    </main>
+
+
+</body>
