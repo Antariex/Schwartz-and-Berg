@@ -529,4 +529,17 @@ iconify-icon:hover {
     text-align: left;
     padding-top: 80px; 
 }
+
+.producto {
+width: calc(31% - 10px);
+} 
+
+.fila-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 }
