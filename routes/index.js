@@ -7,5 +7,7 @@ router.get('/', mainController.home)
 
 router.get('/menu', mainController.menu)
 
+router.get('/nosotros', mainController.nosotros)
+
 //Exportamos las variables del router
 module.exports = router

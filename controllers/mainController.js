@@ -14,6 +14,10 @@ const mainController = {
     menu: (req, res) => {
         res.render('menu', {productos}); 
     },
+
+    nosotros: (req, res) => {
+        res.render('nosotros'); 
+    }
 };
 
 module.exports = mainController;

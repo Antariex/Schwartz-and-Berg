@@ -1,15 +1,25 @@
+//Se importa router principal, express, path y se asigna puerto 3000
+const mainRouter = require("./routes/index");
 const express = require("express");
+const path = require("path");
 const app = express();
 const port = 3000;
-const mainRouter = require("./routes/index");
-const path = require("path");
 
+// Motor de vistas
 app.set("view engine", "ejs");
 
-app.use(express.static(path.join(__dirname, "public")));
+//Servidor escuchando app en el puerto 3000
+  console.log('Servidor corriendo en el puerto 3000');
+  console.log('http://localhost:5000');
 
+//Enrutador principal (http://localhost:3000/)
 app.use(mainRouter);
 
+//Middlewares: Disponibilidad de la carpeta public
+app.use(express.static(path.join(__dirname, "public")));
+
+
+// API del menú:
 // Ruta para obtener todo el menú
 app.get("/productos", (req, res) => {
   res.json(productos);
@@ -28,4 +38,6 @@ app.listen(port, () => {
   );
 });
 
+
+// Exportar app
 module.exports = app;
