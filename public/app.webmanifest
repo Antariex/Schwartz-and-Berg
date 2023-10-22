@@ -1,12 +1,12 @@
 {
     "name": "Schwartz & Berg",
     "short_name": "S&B",
-    "start_url": "/pwa",
+    "start_url": "./",
     "display": "standalone",
-    "background_color": "#9D1114",
+    "background_color": "antiquewhite",
     "theme_color": "#9D1114",
     "description": "Todo el sabor de Schwartz & Berg ahora desde tu celular. Revisá el menú, pedí delivery o reservá en nuestro salón al instante.",
-    "scope": "/",
+    "scope": "./",
     "orientation": "portrait",
     "lang": "es",
     "icons": [
