@@ -10,7 +10,7 @@ app.set("view engine", "ejs");
 
 //Servidor escuchando app en el puerto 3000
   console.log('Servidor corriendo en el puerto 3000');
-  console.log('http://localhost:5000');
+  console.log('http://localhost:3000');
 
 //Enrutador principal (http://localhost:3000/)
 app.use(mainRouter);
