@@ -1,12 +1,12 @@
 // Hero image changer
             // Arreglo de rutas de las imágenes que deseas mostrar
             const imagenes = [
-                "./images/hotpastrami.jpg",
-                "./images/vareniques.jpg",
-                "./images/ribs.jpg",
-                "./images/burguer.jpg",
-                "./images/goulash.jpg",
-                "./images/chessecake.jpg"
+                "../images/hotpastrami.jpg",
+                "../images/vareniques.jpg",
+                "../images/ribs.jpg",
+                "../images/burguer.jpg",
+                "../images/goulash.jpg",
+                "../images/chessecake.jpg"
             ];
 
             const imagenElement = document.getElementById("imagenReemplazar");
