@@ -3,8 +3,17 @@ self.addEventListener("install", async (event) => {
   const cache = await caches.open("recursos");
   await cache.addAll([
     "/",
+    "/menu",
+    "/nosotros",
+    "/sucursales",
+    "/nada",
+    "/partials/header",
     "styles.css",
     "/images/logo.jpg",
+    "/public/js/sw.js",
+    "/public/js/menu.js",
+    "/public/js/content.js",
+    "/public/js/app2.js",
     "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap",
     "https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4.woff2",
   ]);
