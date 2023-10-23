@@ -1,27 +1,30 @@
-const { json } = require('express');
-const path = require('path');
-const fs = require('fs');
+const { json } = require("express");
+const path = require("path");
+const fs = require("fs");
 
-const productFilePath = path.join(__dirname, '../data/productos.json');
-const productos = JSON.parse(fs.readFileSync(productFilePath, 'utf8'));
+const productFilePath = path.join(__dirname, "../data/productos.json");
+const productos = JSON.parse(fs.readFileSync(productFilePath, "utf8"));
 
 const mainController = {
+  home: (req, res, next) => {
+    res.render("index");
+  },
 
-    home: (req, res, next) => {
-        res.render('index');
-    },
+  menu: (req, res) => {
+    res.render("menu", { productos });
+  },
 
-    menu: (req, res) => {
-        res.render('menu', {productos}); 
-    },
+  nosotros: (req, res) => {
+    res.render("nosotros");
+  },
 
-    nosotros: (req, res) => {
-        res.render('nosotros'); 
-    },
+  sucursales: (req, res) => {
+    res.render("sucursales");
+  },
 
-    sucursales: (req, res) => {
-        res.render('sucursales'); 
-    }
+  nada: (req, res) => {
+    res.render("nada");
+  },
 };
 
 module.exports = mainController;

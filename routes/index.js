@@ -14,5 +14,8 @@ router.get('/nosotros', mainController.nosotros)
 //Sucursales (http://localhost:3000/sucursales)
 router.get('/sucursales', mainController.sucursales)
 
+//No hay producto (http://localhost:3000/nada)
+router.get('/nada', mainController.nada)
+
 //Exportamos las variables del router
 module.exports = router
