@@ -451,6 +451,18 @@ iconify-icon:hover {
     }
 }
 
+@media screen and (min-width: 375px) {
+    .center-iframe {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+        max-width: 318px !important;
+        overflow: hidden !important;
+    }
+}
+
 @media screen and (min-width: 769px) {
     .navbar {
         width: 100%;
