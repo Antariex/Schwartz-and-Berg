@@ -417,6 +417,20 @@ iconify-icon:hover {
 }
 
 /*Estilos de vista: Sucursales*/
+.fotosSB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fotosSB img {
+    border-radius: 24px;
+    margin: 10px;
+    max-width: 28%;
+    border: 1px solid #333333;
+}
+
 .center-iframe {
     display: flex;
     justify-content: center;
