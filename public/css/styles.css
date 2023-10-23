@@ -415,7 +415,7 @@ iconify-icon:hover {
     margin: 0 auto;
     padding: 0;
     border-radius: 24px;
-    border: 1px solid #1f1f1f;    
+    border: 1px solid #1f1f1f;
 }
 
 /*Estilos de vista: Sucursales*/
@@ -451,7 +451,7 @@ iconify-icon:hover {
     }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 425px) {
     .center-iframe {
         display: block;
         flex-wrap: wrap;
@@ -629,7 +629,7 @@ iconify-icon:hover {
         margin: 0 auto;
         padding: 0;
         border-radius: 24px;
-        border: 1px solid #1f1f1f;    
+        border: 1px solid #1f1f1f;
     }
 
     .center-iframe {
